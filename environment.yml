@@ -30,7 +30,6 @@ dependencies:
   - xlrd
   - memory_profiler
   - plotly
-  - cufflinks
   - ipyleaflet
   - rasterio
   - tqdm
