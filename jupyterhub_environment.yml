@@ -1,4 +1,4 @@
-name: esm-python-analysis
+name: base
 
 channels:
   - conda-forge
