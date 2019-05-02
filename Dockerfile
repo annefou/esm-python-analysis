@@ -1,4 +1,4 @@
-ROM quay.io/uninett/jupyterhub-singleuser:20190424-9e165df
+FROM quay.io/uninett/jupyterhub-singleuser:20190424-9e165df
 
 MAINTAINER Anne Fouilloux <annefou@geo.uio.no>
 
