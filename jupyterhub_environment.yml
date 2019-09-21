@@ -55,3 +55,4 @@ dependencies:
       - ipydatawidgets
       - sidecar
       - geojsoncontour
+      - nbgitpuller
