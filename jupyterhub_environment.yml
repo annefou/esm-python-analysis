@@ -50,6 +50,7 @@ dependencies:
   - basemap-data-hires
   - plotly
   - rasterstats
+  - cfgrib
   - pip:
       - dask_labextension
       - ipydatawidgets
