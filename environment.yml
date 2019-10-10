@@ -50,6 +50,9 @@ dependencies:
   - basemap-data-hires
   - plotly
   - rasterstats
+  - cdo
+  - nco
+  - pyaerocom
   - pip:
       - dask_labextension
       - ipydatawidgets
