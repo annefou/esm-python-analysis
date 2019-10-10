@@ -53,6 +53,7 @@ dependencies:
   - cdo
   - nco
   - pyaerocom
+  - esmvaltool
   - pip:
       - dask_labextension
       - ipydatawidgets
