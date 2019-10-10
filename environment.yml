@@ -1,6 +1,7 @@
 name: esm-python-analysis
 
 channels:
+  - esmvalgroup 
   - conda-forge
   - bioconda
   - defaults
