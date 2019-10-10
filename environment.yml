@@ -54,6 +54,10 @@ dependencies:
   - cdo
   - nco
   - pyaerocom
+  - esmvalcore>=2.0.0b2,<2.1
+  - graphviz
+  - imagemagick
+  - libunwind 
   - esmvaltool
   - pip:
       - dask_labextension
