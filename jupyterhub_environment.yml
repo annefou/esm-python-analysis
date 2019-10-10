@@ -53,6 +53,7 @@ dependencies:
   - cfgrib
   - cdo
   - nco
+  - pyaerocom
   - pip:
       - dask_labextension
       - ipydatawidgets
