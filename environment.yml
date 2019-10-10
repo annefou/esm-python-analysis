@@ -54,6 +54,7 @@ dependencies:
   - cdo
   - nco
   - pyaerocom
+  - julia
   - esmvalcore>=2.0.0b2,<2.1
   - graphviz
   - imagemagick
