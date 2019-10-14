@@ -1,4 +1,5 @@
-FROM quay.io/uninett/jupyterhub-singleuser:20190911-e0a7653
+###FROM quay.io/uninett/jupyterhub-singleuser:20190911-e0a7653
+FROM quay.io/uninett/jupyterhub-singleuser:20191012-5691f5c
 
 MAINTAINER Anne Fouilloux <annefou@geo.uio.no>
 
