@@ -7,9 +7,6 @@ MAINTAINER Anne Fouilloux <annefou@geo.uio.no>
 USER root
 RUN apt-get update && apt-get install -y vim
 
-# Install other packages
-USER notebook
-
 # Install requirements for Python 3
 ADD jupyterhub_environment.yml jupyterhub_environment.yml
 
@@ -21,3 +18,5 @@ RUN /opt/conda/bin/jupyter labextension install jupyterlab-datawidgets nbdime-ju
 RUN /opt/conda/bin/jupyter labextension install @jupyter-widgets/jupyterlab-sidecar
 RUN git clone https://github.com/metno/pyaerocom.git && git checkout --track origin/v081dev && cd pyaerocom && /opt/conda/bin/python setup.py install
 
+# Install other packages
+USER notebook
