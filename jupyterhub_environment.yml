@@ -53,6 +53,7 @@ dependencies:
   - cfgrib
   - cdo
   - nco
+  - jupytext
   - pip:
       - dask_labextension
       - ipydatawidgets
