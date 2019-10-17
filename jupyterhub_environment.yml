@@ -54,6 +54,7 @@ dependencies:
   - cdo
   - nco
   - jupytext
+  - pydap
   - pip:
       - dask_labextension
       - ipydatawidgets
