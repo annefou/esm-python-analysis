@@ -58,6 +58,7 @@ dependencies:
   - rise
   - papermill
   - plotnine
+  - geonum
   - pip:
       - dask_labextension
       - ipydatawidgets
