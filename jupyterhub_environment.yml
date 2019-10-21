@@ -57,6 +57,7 @@ dependencies:
   - pydap
   - rise
   - papermill
+  - plotnine
   - pip:
       - dask_labextension
       - ipydatawidgets
