@@ -12,14 +12,5 @@ ADD jupyterhub_environment.yml jupyterhub_environment.yml
 
 RUN conda env update -f jupyterhub_environment.yml
 
-RUN /opt/conda/bin/jupyter labextension install @jupyterlab/hub-extension @jupyter-widgets/jupyterlab-manager
-RUN /opt/conda/bin/nbdime extensions --enable
-RUN /opt/conda/bin/jupyter labextension install jupyterlab-datawidgets nbdime-jupyterlab dask-labextension
-RUN /opt/conda/bin/jupyter labextension install @jupyter-widgets/jupyterlab-sidecar
-RUN /opt/conda/bin/jupyter serverextension enable jupytext
-RUN /opt/conda/bin/jupyter nbextension install --py jupytext
-RUN /opt/conda/bin/jupyter nbextension enable --py jupytext
-RUN git clone -b v081dev https://github.com/metno/pyaerocom.git && cd pyaerocom && /opt/conda/bin/python setup.py install
-
 # Install other packages
 USER notebook
