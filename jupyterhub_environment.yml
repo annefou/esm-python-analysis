@@ -7,19 +7,5 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.7
-  - numpy >=1.14
-  - xarray >=0.10.8
-  - pandas >=0.22.0
-  - cartopy >=0.16.0
-  - matplotlib 
-  - seaborn >=0.8.1
-  - geopy >=1.17.0
-  - basemap
-  - netcdf4
-  - esmvalcore>=2.0.0b2,<2.1
-  - graphviz
-  - imagemagick
-  - libunwind 
   - esmvaltool
   
