@@ -21,5 +21,8 @@ RUN /opt/conda/bin/jupyter nbextension install --py jupytext
 RUN /opt/conda/bin/jupyter nbextension enable --py jupytext
 RUN /opt/conda/bin/jupyter labextension install @pyviz/jupyterlab_pyviz jupyter-leaflet
 
+# Fix hub failure
+RUN fix-permissions $HOME
+
 # Install other packages
 USER notebook
