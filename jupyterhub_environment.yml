@@ -29,7 +29,8 @@ dependencies:
   - branca
   - geopandas
   - cdsapi
-  - folium  - esmvaltool
+  - folium  
+  - esmvaltool
   - basemap-data-hires
   - rasterstats
   - cfgrib
